@@ -6,7 +6,7 @@ function calcularFor(){
             contagemDiv++;
         }
     }
-    if(contagemDiv == 2){
+    if(contagemDiv <= 2){
         document.getElementById("saida").innerHTML = `Esse número é primo`;
     }
     else{
@@ -24,7 +24,7 @@ function calcularWhile(){
         }
         i++;
     }
-    if(contagemDiv == 2){
+    if(contagemDiv <= 2){
         document.getElementById("saida").innerHTML = `Esse número é primo`;
     }
     else{
@@ -42,7 +42,7 @@ function calcularDo(){
         }
         i++;
     }while(i<=num)
-    if(contagemDiv == 2){
+    if(contagemDiv <= 2){
         document.getElementById("saida").innerHTML = `Esse número é primo`;
     }
     else{
